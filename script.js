@@ -125,7 +125,7 @@ async function loadGuestbookEntries() {
       }
     } else {
       entries.forEach(entry => {
-        addEntryToDOM(entry.name, entry.message, entry.date);
+        addEntryToDOM(entry.name, entry.message, formatDate(entry.date));
       });
     }
   } catch (err) {
@@ -181,10 +181,10 @@ function escapeHtml(text) {
 }
 
 // Format date
-function formatDate() {
+function formatDate(dateStr) {
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-  const now = new Date();
-  return `${months[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
+  const d = dateStr ? new Date(dateStr) : new Date();
+  return `${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
 }
 
 // Handle form submission

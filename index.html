@@ -3,52 +3,60 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Revindo Nur</title>
+  <title>Revindo Nur — Digital Business Innovation</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <!-- Navbar -->
   <nav id="navbar">
-    <h1 class="logo">Revindo Nur</h1>
-    <ul class="nav-links">
-      <li><a href="#greeting">Greeting</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#achievements">Achievements</a></li>
-    </ul>
+    <div class="nav-container">
+      <a href="#greeting" class="logo">Revindo Nur</a>
+      <ul class="nav-links">
+        <li><a href="#greeting">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#achievements">Awards</a></li>
+        <li><a href="#guestbook">Guestbook</a></li>
+      </ul>
+    </div>
   </nav>
 
-  <!-- Greeting Section -->
-  <section id="greeting">
+  <!-- Hero/Greeting Section -->
+  <section id="greeting" class="hero-section">
     <div class="container">
-      <img src="RevindoNur.jpeg" alt="Your Photo" class="profile-pic"/>
-      <h2>Hello, I'm Revindo Nur</h2>
-      <p>
-        A dedicated professional with a collaborative mindset who thrives in team environments while maintaining strong individual performance. Recognized for exceptional adaptability and the ability to quickly master new skills and processes in changing situations. Demonstrates outstanding time management capabilities, consistently delivering high-quality results on schedule through effective prioritization and organizational skills. Known for a steadfast work ethic, bringing determination and resilience to every challenge, ensuring projects are completed thoroughly and efficiently.
-      </p>
-      <a href="https://www.linkedin.com/in/revindonur " target="_blank" class="btn">Visit My LinkedIn</a>
-    </div>
-  </section>
-
-  <!-- Educational History -->
-  <section id="education">
-    <div class="container">
-      <h2>Educational History</h2>
-      <div class="edu-item">
-        <h3>Bina Nusantara University</h3>
-        <h4>Digital Business Innovation</h4>
-        <p>2024–Present</p>
-        <p>1. September Intake</p>
-        <p>2. 3.87 GPA</p>
-      </div>
-      <div class="edu-item">
-        <h3>Canisius College High School</h3>
-        <h4>Social Science</h4>
-        <p>2021–2024</p>
-        <p>1. Academic: 86.2 average score (Senior High School Transcript)</p>
-        <p>2. Activities: School Football First Team, BeruangMagnet64, ILT Committee, Canisius College Cup Committee, Edufair Moderator, Ragamuda Committee, etc.</p>
+      <div class="hero-content">
+        <div class="profile-wrapper">
+          <img src="RevindoNur.jpeg" alt="Revindo Nur" class="profile-pic"/>
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-title">Hello, I'm <span class="highlight">Revindo Nur</span></h1>
+          <p class="hero-description">
+            A Digital Business Innovation Double Degree student at BINUS University with a sharp focus on Data Analytics. I specialize in bridging the gap between business strategy and technical execution, transforming complex datasets into actionable narratives.
+            Proficient in Python, SQL (MySQL & Oracle), and Power BI, I empower teams to make better-informed decisions through data-driven insights. Beyond the numbers, my role as an Algorithm Lab Assistant has sharpened my ability to simplify technical concepts and mentor others toward innovation.
+            I am driven by the belief that technology is a force for sustainable growth, and I am currently looking for opportunities to apply my skills as a Data Analyst.
+          </p>
+          <div class="hero-cta">
+            <a href="https://www.linkedin.com/in/revindonur" target="_blank" class="btn btn-primary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://www.instagram.com/revindonur?igsh=cXEycDFrczJlNzlw&utm_source=qr" target="_blank" class="btn btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+              </svg>
+              <span>Instagram</span>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -56,61 +64,145 @@
   <!-- Experience Section -->
   <section id="experience">
     <div class="container">
-      <h2>Experience</h2>
+      <h2 class="section-title">Experience</h2>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div>
+                <h3>Laboratory Assistant</h3>
+                <p class="company">Bina Nusantara University</p>
+              </div>
+              <span class="exp-date">Aug 2025 — Present</span>
+            </div>
+            <ul class="exp-list">
+              <li>The first Laboratory Assistant representing the Digital Business Innovation major.</li>
+              <li>Improve students understanding of programming fundamentals through guided lab sessions.</li>
+              <li>Contribute in developing engaging learning materials and practical assignments to strengthen students problem-solving skills.</li>
+              <li>Conduct grading and feedback processes to provide students with timely, constructive evaluations.</li>
+            </ul>
+          </div>
+        </div>
 
-      <div class="exp-card">
-        <div class="exp-header">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div>
+                <h3>Internal Division</h3>
+                <p class="company">Bina Nusantara Futsal Student Activity Unit</p>
+              </div>
+              <span class="exp-date">Feb 2025 — Present</span>
+            </div>
+            <ul class="exp-list">
+              <li>Strengthen internal communication and coordination among club members.</li>
+              <li>Organize internal events and team-building activities to enhance member engagement and unity.</li>
+              <li>Collaborate with other divisions to maintain effective information flow and teamwork.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div>
+                <h3>President of Altar Server</h3>
+                <p class="company">Cathedral Church Jakarta</p>
+              </div>
+              <span class="exp-date">Jul 2022 — Jul 2023</span>
+            </div>
+            <ul class="exp-list">
+              <li>Led a community of 50+ altar servers at Jakarta Cathedral, overseeing liturgical services and spiritual development</li>
+              <li>Worked together with other church employees, including sacristans, to assist in organizing and carrying out parish events.</li>
+              <li>Managed annual budgets and operational logistics.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="exp-header">
+              <div>
+                <h3>President</h3>
+                <p class="company">Cathedral Cup IV</p>
+              </div>
+              <span class="exp-date">Jan 2023 — Feb 2023</span>
+            </div>
+            <ul class="exp-list">
+              <li>Organized the largest altar server competition in Jabodetabek, uniting 200+ participants from 30+ parishes.</li>
+              <li>Directed a 50+ member committee to deliver a high-impact event aligned with the Cathedral's mission of youth empowerment and spiritual growth</li>
+              <li>Delegated tasks across departments and committee heads.</li>
+              <li>Led planning meetings and made final decisions.</li>
+              <li>Managed budgets, sponsorships, and post-event accountability reports.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Featured Projects</h2>
+      <div class="projects-grid">
+        
+        <div class="project-card">
+          <div class="project-number">01</div>
+          <h3>First Python Project</h3>
+          <p class="project-description">Analyzed over 7.1 million rows from the "Two Centuries of UM Races" dataset using Python. 
+            Focused on 50km & 50mi USA races in 2020, performing full data cleaning, feature engineering (athlete age, race season), 
+            and exploratory data analysis. Key insights include speed distribution by gender, age vs. performance trends, and 
+            seasonal performance differences.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Seaborn</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">EDA</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/vindo0801/First-Data-Analyst-Project.git" class="project-link">View Project →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Educational History -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+      <div class="education-grid">
+        
+        <div class="edu-card">
+          <div class="edu-icon">🎓</div>
           <h3>Bina Nusantara University</h3>
-          <span class="exp-date">Aug 2025 – Present</span>
+          <h4>Digital Business Innovation</h4>
+          <p class="edu-period">2024 — Present</p>
+          <ul class="edu-details">
+            <li>September Intake</li>
+            <li>3.87 GPA</li>
+          </ul>
         </div>
-        <p><em>Laboratory Assistant</em></p>
-        <ul>
-          <li>The first Laboratory Assistant representing the Digital Business Innovation major.</li>
-          <li>Improve students understanding of programming fundamentals through guided lab sessions.</li>
-          <li>Contribute in developing engaging learning materials and practical assignments to strengthen students problem-solving skills.</li>
-          <li>Conduct grading and feedback processes to provide students with timely, constructive evaluations.</li>
-        </ul>
-      </div>
 
-      <div class="exp-card">
-        <div class="exp-header">
-          <h3>Bina Nusantara Futsal Student Activity Unit</h3>
-          <span class="exp-date">Feb 2025 – Present</span>
+        <div class="edu-card">
+          <div class="edu-icon">📚</div>
+          <h3>Canisius College High School</h3>
+          <h4>Social Science</h4>
+          <p class="edu-period">2021 — 2024</p>
+          <ul class="edu-details">
+            <li>Academic: 86.2 average score (Senior High School Transcript)</li>
+            <li>Activities: School Football First Team, BeruangMagnet64, ILT Committee, Canisius College Cup Committee, Edufair Moderator, Ragamuda Committee, etc.</li>
+          </ul>
         </div>
-        <p><em>Internal Division</em></p>
-        <ul>
-          <li>Strengthen internal communication and coordination among club members.</li>
-          <li>Organize internal events and team-building activities to enhance member engagement and unity.</li>
-          <li>Collaborate with other divisions to maintain effective information flow and teamwork.</li>
-        </ul>
-      </div>
 
-      <div class="exp-card">
-        <div class="exp-header">
-          <h3>Cathedral Church Jakarta</h3>
-          <span class="exp-date">Jul 2022 – Jul 2023</span>
-        </div>
-        <p><em>President of Altar Server</em></p>
-        <ul>
-          <li>Led a community of 50+ altar servers at Jakarta Cathedral, overseeing liturgical services and spiritual development</li>
-          <li>Worked together with other church employees, including sacristans, to assist in organizing and carrying out parish events.</li>
-          <li>Managed annual budgets and operational logistics.</li>
-        </ul>
-      </div>
-
-      <div class="exp-card">
-        <div class="exp-header">
-          <h3>Cathedral Cup IV</h3>
-          <span class="exp-date">Jan 2023 – Feb 2023</span>
-        </div>
-        <p><em>President</em></p>
-        <ul>
-          <li>Organized the largest altar server competition in Jabodetabek, uniting 200+ participants from 30+parishes.</li>
-          <li>Directed a 50+ member committee to deliver a high-impact event aligned with the Cathedral’s mission of youth empowerment and spiritual growth</li>
-          <li>Delegated tasks across departments and committee heads.</li>
-          <li>Led planning meetings and made final decisions.</li>
-          <li>Managed budgets, sponsorships, and post-event accountability reports.</li>
-        </ul>
       </div>
     </div>
   </section>
@@ -118,28 +210,71 @@
   <!-- Skills Section -->
   <section id="skills">
     <div class="container">
-      <h2>My Skills</h2>
-      <div class="tab-buttons">
-        <button class="tab-btn active">Hard Skills</button>
-        <button class="tab-btn">Soft Skills</button>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-container">
+        
+        <div class="skill-category">
+          <h3 class="skill-category-title">Technical Skills</h3>
+          <div class="skill-grid">
+            <div class="skill-tag">Microsoft Office</div>
+            <div class="skill-tag">Canva</div>
+            <div class="skill-tag">Google Sites</div>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Database (MySQL & Oracle)</div>
+            <div class="skill-tag">C (Basic)</div>
+            <div class="skill-tag">Java (Basic)</div>
+            <div class="skill-tag">Web Developer (Basic)</div>
+            <div class="skill-tag">Cisco (Basic)</div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="skill-category-title">Soft Skills</h3>
+          <div class="skill-grid">
+            <div class="skill-tag">Teamwork</div>
+            <div class="skill-tag">Public Speaking</div>
+            <div class="skill-tag">Leadership</div>
+            <div class="skill-tag">Event Planning</div>
+            <div class="skill-tag">Time Management</div>
+            <div class="skill-tag">Decision Making</div>
+          </div>
+        </div>
+
       </div>
-      <div class="tab-content active">
-        <div class="skill-card">Microsoft Office</div>
-        <div class="skill-card">Canva</div>
-        <div class="skill-card">Google Sites</div>
-        <div class="skill-card">Python</div>
-        <div class="skill-card">Database</div>
-        <div class="skill-card">C (Basic)</div>
-        <div class="skill-card">Java (Basic)</div>
-        <div class="skill-card">Web Developer (Basic)</div>
-      </div>
-      <div class="tab-content">
-        <div class="skill-card">Teamwork</div>
-        <div class="skill-card">Public Speaking</div>
-        <div class="skill-card">Leadership</div>
-        <div class="skill-card">Event Planning</div>
-        <div class="skill-card">Time Management</div>
-        <div class="skill-card">Decision Making</div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+      <div class="certifications-grid">
+        
+        <div class="cert-card">
+          <div class="cert-icon">🎖️</div>
+          <h3>Power BI & Power Virtual Agents</h3>
+          <p class="cert-issuer">Issued by: Microsoft</p>
+          <p class="cert-date">Date: Feb 2026</p>
+          <p class="cert-description">This learning journey has helped me strengthen my understanding of the integration between 
+            business intelligence and AI-driven automation. Throughout the course, I gained hands-on experience in transforming 
+            raw data into actionable intelligence with Power BI and building intelligent chatbots with Power Virtual Agents 
+            to enhance digital user experiences."
+          </p>
+          <a href="PowerBI&PowerVirtualAgents_RevindoNur.pdf" class="view-cert-btn" target="_blank">View Certificate →</a>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">🎖️</div>
+          <h3>Udemy Data Analyst</h3>
+          <p class="cert-issuer">Issued by: Udemy</p>
+          <p class="cert-date">Date: Jan 2026</p>
+          <p class="cert-description">This learning journey has helped me strengthen my understanding of the end-to-end
+            data analysis process especially with Python (Pandas and NumPy). Throughout the course, I gained hands-on experience in
+            Data Gathering, Data Cleaning, Data Preprocessing, Data Manipulation, Data Visualization 
+          </p>
+          <a href="Udemy_DataAnalyst.jpg" class="view-cert-btn" target="_blank">View Certificate →</a>
+        </div>
+
       </div>
     </div>
   </section>
@@ -147,37 +282,93 @@
   <!-- Achievement Section -->
   <section id="achievements">
     <div class="container">
-      <h2>Awards</h2>
-      <div class="carousel-container">
-
-        <div class="carousel-slide active">
-          <img src="apres.jpg" alt="Achievement 1"/>
-          <p><strong>Magna Cum Laude Academic</strong> – Achieved average 91.67.</p>
+      <h2 class="section-title">Awards & Recognition</h2>
+      
+      <div class="achievements-grid">
+        
+        <div class="achievement-card">
+          <div class="achievement-image">
+            <img src="apres.jpg" alt="Magna Cum Laude Academic Achievement"/>
+          </div>
+          <div class="achievement-content">
+            <h3>Magna Cum Laude Academic</h3>
+            <p>Achieved average 91.67</p>
+          </div>
         </div>
 
-        <div class="carousel-slide">
-          <img src="apres2.jpg" alt="Achievement 2"/>
-          <p><strong>Summa Cum Laude Non-Academic</strong> – Achieved 250+ points for non-academic appreciation.</p>
+        <div class="achievement-card">
+          <div class="achievement-image">
+            <img src="apres2.jpg" alt="Summa Cum Laude Non-Academic Achievement"/>
+          </div>
+          <div class="achievement-content">
+            <h3>Summa Cum Laude Non-Academic</h3>
+            <p>Achieved 250+ points for non-academic appreciation</p>
+          </div>
         </div>
 
-        <div class="carousel-slide">
-          <a href="RP21.pdf" target="_blank" class="btn">View Research Paper File</a>
-          <p><strong>Best Research Paper Award in Humanities</strong> – Recognized for analysis of “The Effects of Distance Learning on the Intensity of Stress of Canisius College Junior High School Students' Parents in the 2020/2021 Academic Year”.</p>
+        <div class="achievement-card special">
+          <div class="achievement-content full">
+            <div class="award-icon">🏆</div>
+            <h3>Best Research Paper Award in Humanities</h3>
+            <p>Recognized for analysis of "The Effects of Distance Learning on the Intensity of Stress of Canisius College Junior High School Students' Parents in the 2020/2021 Academic Year"</p>
+            <a href="RP21.pdf" target="_blank" class="btn btn-outline">
+              <span>View Research Paper</span>
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+                <path d="M8 3V13M8 3L4 7M8 3L12 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
         </div>
 
-        <div class="carousel-indicators">
-          <span class="carousel-indicator active"></span>
-          <span class="carousel-indicator"></span>
-          <span class="carousel-indicator"></span>
+      </div>
+    </div>
+  </section>
+
+ <!-- Guestbook Section -->
+  <section id="guestbook">
+    <div class="container">
+      <h2 class="section-title">Guestbook</h2>
+      <p class="guestbook-intro">Leave a note, share your thoughts, or just say hi! 👋</p>
+      
+      <div class="guestbook-form">
+        <form id="guestbookForm">
+          <div class="form-group">
+            <input type="text" id="nameInput" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <textarea id="messageInput" placeholder="Your message..." rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span>Sign Guestbook</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path d="M2 8h12M10 4l4 4-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+      <div class="guestbook-entries" id="guestbookEntries">
+        <div class="guestbook-empty" id="emptyState">
+          <p>✏️ Be the first to leave a message!</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; 2025 Revindo Nur. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/revindonur" target="_blank">LinkedIn</a>
+          <a href="https://www.instagram.com/revindonur?igsh=cXEycDFrczJlNzlw&utm_source=qr" target="_blank">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- JavaScript -->
   <script src="script.js"></script>
 </body>
 </html>
-
-
-
